@@ -9,6 +9,13 @@ package ejemplos;
  *
  * @author juanp
  */
+
 public class clsMostrar {
     /*iniciamos con la practica*/
+    int x = 5;
+    
+    public static void main(String[]args){
+      clsMostrar numero = new clsMostrar() ;
+      System.out.println(numero.x);
+    }
 }
