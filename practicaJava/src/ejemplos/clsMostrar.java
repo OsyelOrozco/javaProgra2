@@ -10,5 +10,5 @@ package ejemplos;
  * @author juanp
  */
 public class clsMostrar {
-    
+    /*iniciamos con la practica*/
 }
