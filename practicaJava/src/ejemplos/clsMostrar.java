@@ -15,7 +15,9 @@ public class clsMostrar {
     int x = 5;
     
     public static void main(String[]args){
-      clsMostrar numero = new clsMostrar() ;
+      clsMostrar numero = new clsMostrar();
+      clsMostrar numero2 = new clsMostrar();
       System.out.println(numero.x);
+      System.out.println(numero2.x);
     }
 }
