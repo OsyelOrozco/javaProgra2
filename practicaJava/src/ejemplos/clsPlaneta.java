@@ -47,11 +47,7 @@ public class clsPlaneta {
     //planeta exterior
     boolean esPlanetaExterior(){
         float limite = (float)(149597870 * 3.4);
-            if(distanciaSol > limite){
-                return true;
-            }else{
-                return false;
-            }
+        return distanciaSol > limite;
     }
     
     //metodo main
